@@ -29,11 +29,8 @@ const MENU_LIST = [
 export const ButtonGroup = () => {
     return (    
         <div className="nav__menu-button flex items-center gap-2">
-            <a href="#_" className=" flex items-center justify-center w-full px-4 py-3 text-[12px] text-accentColor lg:text-[16px] rounded-md border-accentColor border hover:text-white hover:bg-accentColor sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
-                Join
-            </a>
-            <a href="#_" className="inline-flex items-center justify-center w-full px-4 py-3 text-[12px] lg:text-[16px] text-white bg-accentColor rounded-md hover:bg-accentColor sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
-                Login
+            <a href="https://dashboard.jobcadet.com/login" className="inline-flex items-center justify-center w-full px-4 py-3 text-[12px] lg:text-[16px] text-white bg-accentColor rounded-md hover:bg-accentColor sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
+                Dashboard
             </a>
         </div>
     )
